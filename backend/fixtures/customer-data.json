@@ -1,0 +1,4361 @@
+[
+  {
+    "person": {
+      "id": "USR-101a2b",
+      "name": "Sarah Jenkins",
+      "role": "CTO",
+      "company": "Nexus Solutions",
+      "industry": "Software"
+    },
+    "deal": {
+      "stage": "negotiation",
+      "deal_value": 45000,
+      "priority": "high",
+      "expected_close_days": 14
+    },
+    "activity": {
+      "last_contact_days_ago": 2,
+      "last_activity_type": "meeting",
+      "email_open_rate": 0.85,
+      "email_reply_rate": 0.40,
+      "calls_count": 5,
+      "meetings_count": 3
+    },
+    "contact": {
+      "email": "sjenkins@nexussolutions.com",
+      "phone": "+1-555-0102",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": [],
+      "profile_completeness_score": 1.0
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 92.5
+    },
+    "history": {
+      "total_interactions": 12,
+      "days_in_pipeline": 45
+    }
+  },
+  {
+    "person": {
+      "id": "USR-202c3d",
+      "name": "Marcus Thorne",
+      "role": "Marketing Manager",
+      "company": "GreenGrid Energy",
+      "industry": "Renewables"
+    },
+    "deal": {
+      "stage": "lead",
+      "deal_value": 12000,
+      "priority": "low",
+      "expected_close_days": 90
+    },
+    "activity": {
+      "last_contact_days_ago": 15,
+      "last_activity_type": "none",
+      "email_open_rate": 0.10,
+      "email_reply_rate": 0.0,
+      "calls_count": 1,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": "m.thorne@greengrid.org",
+      "phone": "+1-555-8891",
+      "has_email": true,
+      "has_phone": false,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["budget", "decision_maker"],
+      "profile_completeness_score": 0.65
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": true,
+      "is_decision_maker": false,
+      "engagement_score": 15.0
+    },
+    "history": {
+      "total_interactions": 2,
+      "days_in_pipeline": 5
+    }
+  },
+  {
+    "person": {
+      "id": "USR-303e4f",
+      "name": "Elena Rodriguez",
+      "role": "VP of Engineering",
+      "company": "Quantum Leap AI",
+      "industry": "Technology"
+    },
+    "deal": {
+      "stage": "proposal",
+      "deal_value": 85000,
+      "priority": "high",
+      "expected_close_days": 21
+    },
+    "activity": {
+      "last_contact_days_ago": 1,
+      "last_activity_type": "email_reply",
+      "email_open_rate": 0.92,
+      "email_reply_rate": 0.75,
+      "calls_count": 8,
+      "meetings_count": 4
+    },
+    "contact": {
+      "email": "e.rodriguez@quantumleap.ai",
+      "phone": "+1-555-2930",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": [],
+      "profile_completeness_score": 1.0
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 98.2
+    },
+    "history": {
+      "total_interactions": 24,
+      "days_in_pipeline": 60
+    }
+  },
+  {
+    "person": {
+      "id": "USR-404g5h",
+      "name": "James Whitmore",
+      "role": "Procurement Officer",
+      "company": "Blue Harbor Logistics",
+      "industry": "Transportation"
+    },
+    "deal": {
+      "stage": "contacted",
+      "deal_value": 22000,
+      "priority": "medium",
+      "expected_close_days": 45
+    },
+    "activity": {
+      "last_contact_days_ago": 8,
+      "last_activity_type": "email_open",
+      "email_open_rate": 0.40,
+      "email_reply_rate": 0.10,
+      "calls_count": 2,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": "jwhitmore@blueharbor.com",
+      "phone": "+1-555-3342",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["budget"],
+      "profile_completeness_score": 0.85
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 42.0
+    },
+    "history": {
+      "total_interactions": 5,
+      "days_in_pipeline": 12
+    }
+  },
+  {
+    "person": {
+      "id": "USR-505i6j",
+      "name": "Sarah Chen",
+      "role": "Director of Operations",
+      "company": "Summit Health",
+      "industry": "Healthcare"
+    },
+    "deal": {
+      "stage": "qualified",
+      "deal_value": 125000,
+      "priority": "high",
+      "expected_close_days": 30
+    },
+    "activity": {
+      "last_contact_days_ago": 3,
+      "last_activity_type": "call",
+      "email_open_rate": 0.78,
+      "email_reply_rate": 0.50,
+      "calls_count": 6,
+      "meetings_count": 2
+    },
+    "contact": {
+      "email": "schen@summithealth.org",
+      "phone": "+1-555-9012",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["timeline"],
+      "profile_completeness_score": 0.92
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 85.4
+    },
+    "history": {
+      "total_interactions": 15,
+      "days_in_pipeline": 35
+    }
+  },
+ 
+  {
+    "person": {
+      "id": "USR-222u4v",
+      "name": "Oliver Quinn",
+      "role": "Security Analyst",
+      "company": "Star City Tech",
+      "industry": "Cybersecurity"
+    },
+    "deal": {
+      "stage": "lead",
+      "deal_value": 12500,
+      "priority": "low",
+      "expected_close_days": 15
+    },
+    "activity": {
+      "last_contact_days_ago": 40,
+      "last_activity_type": "none",
+      "email_open_rate": 0.10,
+      "email_reply_rate": 0.0,
+      "calls_count": 0,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": "o.quinn@starcity.io",
+      "phone": "+1-555-0101",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["budget", "timeline", "decision_maker"],
+      "profile_completeness_score": 0.35
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": true,
+      "is_decision_maker": false,
+      "engagement_score": 0.0
+    },
+    "history": {
+      "total_interactions": 1,
+      "days_in_pipeline": 40
+    }
+  },
+  {
+    "person": {
+      "id": "USR-333w5x",
+      "name": "Jasmine Lee",
+      "role": "Creative Lead",
+      "company": "K-Wave Media",
+      "industry": "Arts"
+    },
+    "deal": {
+      "stage": "proposal",
+      "deal_value": 31000,
+      "priority": "medium",
+      "expected_close_days": 12
+    },
+    "activity": {
+      "last_contact_days_ago": 2,
+      "last_activity_type": "email_reply",
+      "email_open_rate": 0.90,
+      "email_reply_rate": 0.60,
+      "calls_count": 3,
+      "meetings_count": 2
+    },
+    "contact": {
+      "email": "j.lee@kwave.kr",
+      "phone": "+82-2-555-0122",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": [],
+      "profile_completeness_score": 1.0
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 82.3
+    },
+    "history": {
+      "total_interactions": 10,
+      "days_in_pipeline": 15
+    }
+  },
+  {
+    "person": {
+      "id": "USR-444y6z",
+      "name": "Nikolai Ivanov",
+      "role": "Logistics Manager",
+      "company": "Moscow Cargo",
+      "industry": "Shipping"
+    },
+    "deal": {
+      "stage": "negotiation",
+      "deal_value": 64000,
+      "priority": "medium",
+      "expected_close_days": 14
+    },
+    "activity": {
+      "last_contact_days_ago": 1,
+      "last_activity_type": "call",
+      "email_open_rate": 0.82,
+      "email_reply_rate": 0.50,
+      "calls_count": 5,
+      "meetings_count": 2
+    },
+    "contact": {
+      "email": "n.ivanov@moscargo.ru",
+      "phone": "+7-495-555-0999",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": [],
+      "profile_completeness_score": 1.0
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 85.7
+    },
+    "history": {
+      "total_interactions": 18,
+      "days_in_pipeline": 42
+    }
+  },
+  {
+    "person": {
+      "id": "USR-555a7b",
+      "name": "Zoe Taylor",
+      "role": "Marketing Specialist",
+      "company": "Melbourne Digital",
+      "industry": "Tech"
+    },
+    "deal": {
+      "stage": "closed_lost",
+      "deal_value": 5000,
+      "priority": "low",
+      "expected_close_days": 0
+    },
+    "activity": {
+      "last_contact_days_ago": 75,
+      "last_activity_type": "none",
+      "email_open_rate": 0.05,
+      "email_reply_rate": 0.0,
+      "calls_count": 0,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": "z.taylor@melbdig.com.au",
+      "phone": "+61-3-555-0222",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": false
+    },
+    "data_quality": {
+      "missing_fields": ["budget", "timeline", "decision_maker"],
+      "profile_completeness_score": 0.38
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": true,
+      "is_decision_maker": false,
+      "engagement_score": 0.0
+    },
+    "history": {
+      "total_interactions": 1,
+      "days_in_pipeline": 80
+    }
+  },
+  {
+    "person": {
+      "id": "USR-666c8d",
+      "name": "Antonio Costa",
+      "role": "Procurement Director",
+      "company": "Lisbon Energy",
+      "industry": "Energy"
+    },
+    "deal": {
+      "stage": "proposal",
+      "deal_value": 142000,
+      "priority": "high",
+      "expected_close_days": 25
+    },
+    "activity": {
+      "last_contact_days_ago": 4,
+      "last_activity_type": "email_reply",
+      "email_open_rate": 0.70,
+      "email_reply_rate": 0.30,
+      "calls_count": 6,
+      "meetings_count": 2
+    },
+    "contact": {
+      "email": "a.costa@lisbonenergy.pt",
+      "phone": "+351-21-555-0101",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": [],
+      "profile_completeness_score": 1.0
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 75.8
+    },
+    "history": {
+      "total_interactions": 12,
+      "days_in_pipeline": 30
+    }
+  },
+  {
+    "person": {
+      "id": "USR-777e9f",
+      "name": "Maria Garcia",
+      "role": "CFO",
+      "company": "Buenos Aires Fin",
+      "industry": "Finance"
+    },
+    "deal": {
+      "stage": "negotiation",
+      "deal_value": 290000,
+      "priority": "high",
+      "expected_close_days": 7
+    },
+    "activity": {
+      "last_contact_days_ago": 1,
+      "last_activity_type": "meeting",
+      "email_open_rate": 0.95,
+      "email_reply_rate": 0.85,
+      "calls_count": 12,
+      "meetings_count": 5
+    },
+    "contact": {
+      "email": "m.garcia@bafin.ar",
+      "phone": "+54-11-555-0888",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": [],
+      "profile_completeness_score": 1.0
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 97.2
+    },
+    "history": {
+      "total_interactions": 40,
+      "days_in_pipeline": 110
+    }
+  },
+  {
+    "person": {
+      "id": "USR-888g0h",
+      "name": "Simon de Beer",
+      "role": "General Manager",
+      "company": "Cape Town Logistics",
+      "industry": "Shipping"
+    },
+    "deal": {
+      "stage": "qualified",
+      "deal_value": 52000,
+      "priority": "medium",
+      "expected_close_days": 40
+    },
+    "activity": {
+      "last_contact_days_ago": 6,
+      "last_activity_type": "call",
+      "email_open_rate": 0.50,
+      "email_reply_rate": 0.20,
+      "calls_count": 3,
+      "meetings_count": 1
+    },
+    "contact": {
+      "email": "s.debeer@ctlogistics.za",
+      "phone": "+27-21-555-0111",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["budget"],
+      "profile_completeness_score": 0.88
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 45.0
+    },
+    "history": {
+      "total_interactions": 7,
+      "days_in_pipeline": 20
+    }
+  },
+  {
+    "person": {
+      "id": "USR-999i1j",
+      "name": "Lin Wei",
+      "role": "Supply Chain Lead",
+      "company": "Hanoi Industrial",
+      "industry": "Manufacturing"
+    },
+    "deal": {
+      "stage": "lead",
+      "deal_value": 8500,
+      "priority": "low",
+      "expected_close_days": 15
+    },
+    "activity": {
+      "last_contact_days_ago": 18,
+      "last_activity_type": "email_open",
+      "email_open_rate": 0.20,
+      "email_reply_rate": 0.0,
+      "calls_count": 0,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": "lin.wei@hanoiind.vn",
+      "phone": "+84-24-555-0222",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["budget", "timeline", "decision_maker"],
+      "profile_completeness_score": 0.40
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": true,
+      "is_decision_maker": false,
+      "engagement_score": 5.0
+    },
+    "history": {
+      "total_interactions": 2,
+      "days_in_pipeline": 10
+    }
+  },
+  {
+    "person": {
+      "id": "USR-000k2l",
+      "name": "Elias Thorne",
+      "role": "Operations Manager",
+      "company": "Auckland Wind",
+      "industry": "Energy"
+    },
+    "deal": {
+      "stage": "closed_won",
+      "deal_value": 115000,
+      "priority": "high",
+      "expected_close_days": 0
+    },
+    "activity": {
+      "last_contact_days_ago": 12,
+      "last_activity_type": "meeting",
+      "email_open_rate": 0.85,
+      "email_reply_rate": 0.65,
+      "calls_count": 7,
+      "meetings_count": 4
+    },
+    "contact": {
+      "email": "e.thorne@aucklandwind.nz",
+      "phone": "+64-9-555-0999",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": [],
+      "profile_completeness_score": 1.0
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 91.5
+    },
+    "history": {
+      "total_interactions": 20,
+      "days_in_pipeline": 60
+    }
+  },
+  {
+    "person": {
+      "id": "USR-111m3n",
+      "name": "Sarah Jenkins",
+      "role": "Chief Operating Officer",
+      "company": "Pacific Logistics",
+      "industry": "Shipping"
+    },
+    "deal": {
+      "stage": "qualified",
+      "deal_value": 420000,
+      "priority": "high",
+      "expected_close_days": 60
+    },
+    "activity": {
+      "last_contact_days_ago": 5,
+      "last_activity_type": "email_reply",
+      "email_open_rate": 0.55,
+      "email_reply_rate": 0.25,
+      "calls_count": 3,
+      "meetings_count": 1
+    },
+    "contact": {
+      "email": "s.jenkins@paclog.com",
+      "phone": "+1-555-0303",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["budget"],
+      "profile_completeness_score": 0.90
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 55.0
+    },
+    "history": {
+      "total_interactions": 8,
+      "days_in_pipeline": 25
+    }
+  },
+  {
+    "person": {
+      "id": "USR-222o4p",
+      "name": "Matteo Bianchi",
+      "role": "IT Consultant",
+      "company": "Rome Tech Solutions",
+      "industry": "Consulting"
+    },
+    "deal": {
+      "stage": "proposal",
+      "deal_value": 15000,
+      "priority": "low",
+      "expected_close_days": 10
+    },
+    "activity": {
+      "last_contact_days_ago": 2,
+      "last_activity_type": "email_open",
+      "email_open_rate": 0.60,
+      "email_reply_rate": 0.20,
+      "calls_count": 2,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": "m.bianchi@rometech.it",
+      "phone": "+39-06-555-0444",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["timeline", "decision_maker"],
+      "profile_completeness_score": 0.75
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 38.0
+    },
+    "history": {
+      "total_interactions": 4,
+      "days_in_pipeline": 8
+    }
+  },
+  {
+    "person": {
+      "id": "USR-333q5r",
+      "name": "Aisha Bello",
+      "role": "CEO",
+      "company": "Lagos Digital",
+      "industry": "Tech"
+    },
+    "deal": {
+      "stage": "negotiation",
+      "deal_value": 88000,
+      "priority": "high",
+      "expected_close_days": 14
+    },
+    "activity": {
+      "last_contact_days_ago": 1,
+      "last_activity_type": "meeting",
+      "email_open_rate": 0.95,
+      "email_reply_rate": 0.80,
+      "calls_count": 10,
+      "meetings_count": 4
+    },
+    "contact": {
+      "email": "a.bello@lagosdig.ng",
+      "phone": "+234-1-555-0555",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": [],
+      "profile_completeness_score": 1.0
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 94.5
+    },
+    "history": {
+      "total_interactions": 26,
+      "days_in_pipeline": 45
+    }
+  },
+  {
+    "person": {
+      "id": "USR-444s6t",
+      "name": "Tom Baker",
+      "role": "Product Manager",
+      "company": "London SaaS",
+      "industry": "Software"
+    },
+    "deal": {
+      "stage": "contacted",
+      "deal_value": 24000,
+      "priority": "medium",
+      "expected_close_days": 30
+    },
+    "activity": {
+      "last_contact_days_ago": 10,
+      "last_activity_type": "email_sent",
+      "email_open_rate": 0.35,
+      "email_reply_rate": 0.10,
+      "calls_count": 1,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": "t.baker@londonsaas.co.uk",
+      "phone": "+44-20-555-0666",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["budget", "decision_maker"],
+      "profile_completeness_score": 0.70
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 25.0
+    },
+    "history": {
+      "total_interactions": 3,
+      "days_in_pipeline": 12
+    }
+  },
+  {
+    "person": {
+      "id": "USR-555u7v",
+      "name": "Elena Martinez",
+      "role": "CFO",
+      "company": "Madrid Finance",
+      "industry": "Finance"
+    },
+    "deal": {
+      "stage": "closed_lost",
+      "deal_value": 150000,
+      "priority": "high",
+      "expected_close_days": 0
+    },
+    "activity": {
+      "last_contact_days_ago": 100,
+      "last_activity_type": "none",
+      "email_open_rate": 0.0,
+      "email_reply_rate": 0.0,
+      "calls_count": 0,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": "e.martinez@madfin.es",
+      "phone": "+34-91-555-0777",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": false
+    },
+    "data_quality": {
+      "missing_fields": ["budget", "timeline", "decision_maker"],
+      "profile_completeness_score": 0.30
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": true,
+      "is_decision_maker": true,
+      "engagement_score": 0.0
+    },
+    "history": {
+      "total_interactions": 1,
+      "days_in_pipeline": 120
+    }
+  },
+
+  {
+    "person": {
+      "id": "USR-666w8x",
+      "name": "Hans Zimmer",
+      "role": "Sound Engineer",
+      "company": "Berlin Audio",
+      "industry": "Media"
+    },
+    "deal": {
+      "stage": "lead",
+      "deal_value": 12000,
+      "priority": "low",
+      "expected_close_days": 45
+    },
+    "activity": {
+      "last_contact_days_ago": 20,
+      "last_activity_type": "email_open",
+      "email_open_rate": 0.20,
+      "email_reply_rate": 0.0,
+      "calls_count": 0,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": "h.zimmer@berlinaudio.de",
+      "phone": "+49-30-555-9000",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["budget", "decision_maker"],
+      "profile_completeness_score": 0.60
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 12.5
+    },
+    "history": {
+      "total_interactions": 2,
+      "days_in_pipeline": 15
+    }
+  },
+  {
+    "person": {
+      "id": "USR-777y9z",
+      "name": "Clara Schumann",
+      "role": "Music Director",
+      "company": "Leipzig Arts",
+      "industry": "Arts"
+    },
+    "deal": {
+      "stage": "qualified",
+      "deal_value": 45000,
+      "priority": "medium",
+      "expected_close_days": 30
+    },
+    "activity": {
+      "last_contact_days_ago": 5,
+      "last_activity_type": "call",
+      "email_open_rate": 0.70,
+      "email_reply_rate": 0.30,
+      "calls_count": 3,
+      "meetings_count": 1
+    },
+    "contact": {
+      "email": "clara@leipzigarts.de",
+      "phone": "+49-341-555-1234",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": [],
+      "profile_completeness_score": 1.0
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 68.0
+    },
+    "history": {
+      "total_interactions": 8,
+      "days_in_pipeline": 20
+    }
+  },
+  {
+    "person": {
+      "id": "USR-888a0b",
+      "name": "Yuki Tanaka",
+      "role": "Procurement",
+      "company": "Osaka Heavy",
+      "industry": "Industrial"
+    },
+    "deal": {
+      "stage": "negotiation",
+      "deal_value": 310000,
+      "priority": "high",
+      "expected_close_days": 14
+    },
+    "activity": {
+      "last_contact_days_ago": 1,
+      "last_activity_type": "meeting",
+      "email_open_rate": 0.95,
+      "email_reply_rate": 0.75,
+      "calls_count": 12,
+      "meetings_count": 5
+    },
+    "contact": {
+      "email": "y.tanaka@osakaheavy.jp",
+      "phone": "+81-6-5555-0999",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": [],
+      "profile_completeness_score": 1.0
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 98.2
+    },
+    "history": {
+      "total_interactions": 35,
+      "days_in_pipeline": 75
+    }
+  },
+  {
+    "person": {
+      "id": "USR-999c1d",
+      "name": "Elena Popescu",
+      "role": "Ops Manager",
+      "company": "Bucharest Log",
+      "industry": "Shipping"
+    },
+    "deal": {
+      "stage": "proposal",
+      "deal_value": 52000,
+      "priority": "medium",
+      "expected_close_days": 20
+    },
+    "activity": {
+      "last_contact_days_ago": 3,
+      "last_activity_type": "email_reply",
+      "email_open_rate": 0.75,
+      "email_reply_rate": 0.40,
+      "calls_count": 4,
+      "meetings_count": 2
+    },
+    "contact": {
+      "email": "e.popescu@bucharestlog.ro",
+      "phone": "+40-21-555-0101",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": [],
+      "profile_completeness_score": 1.0
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 72.0
+    },
+    "history": {
+      "total_interactions": 10,
+      "days_in_pipeline": 25
+    }
+  },
+  {
+    "person": {
+      "id": "USR-000e2f",
+      "name": "Ahmed Mansour",
+      "role": "CFO",
+      "company": "Cairo Finance",
+      "industry": "Finance"
+    },
+    "deal": {
+      "stage": "closed_won",
+      "deal_value": 185000,
+      "priority": "high",
+      "expected_close_days": 0
+    },
+    "activity": {
+      "last_contact_days_ago": 15,
+      "last_activity_type": "meeting",
+      "email_open_rate": 0.90,
+      "email_reply_rate": 0.60,
+      "calls_count": 8,
+      "meetings_count": 4
+    },
+    "contact": {
+      "email": "a.mansour@cairofin.eg",
+      "phone": "+20-2-5555-0888",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": [],
+      "profile_completeness_score": 1.0
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 91.0
+    },
+    "history": {
+      "total_interactions": 22,
+      "days_in_pipeline": 50
+    }
+  },
+  {
+    "person": {
+      "id": "USR-111g3h",
+      "name": "Sofia Rossi",
+      "role": "Marketing Lead",
+      "company": "Milan Media",
+      "industry": "Media"
+    },
+    "deal": {
+      "stage": "qualified",
+      "deal_value": 24000,
+      "priority": "medium",
+      "expected_close_days": 40
+    },
+    "activity": {
+      "last_contact_days_ago": 8,
+      "last_activity_type": "email_open",
+      "email_open_rate": 0.50,
+      "email_reply_rate": 0.15,
+      "calls_count": 2,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": "s.rossi@milanmedia.it",
+      "phone": "+39-02-555-0999",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["budget"],
+      "profile_completeness_score": 0.88
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 42.0
+    },
+    "history": {
+      "total_interactions": 6,
+      "days_in_pipeline": 18
+    }
+  },
+  {
+    "person": {
+      "id": "USR-222i4j",
+      "name": "Lars Andersen",
+      "role": "CTO",
+      "company": "Oslo Tech",
+      "industry": "Tech"
+    },
+    "deal": {
+      "stage": "negotiation",
+      "deal_value": 94000,
+      "priority": "high",
+      "expected_close_days": 7
+    },
+    "activity": {
+      "last_contact_days_ago": 1,
+      "last_activity_type": "call",
+      "email_open_rate": 0.95,
+      "email_reply_rate": 0.85,
+      "calls_count": 10,
+      "meetings_count": 3
+    },
+    "contact": {
+      "email": "l.andersen@oslotech.no",
+      "phone": "+47-22-555-0101",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": [],
+      "profile_completeness_score": 1.0
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 96.5
+    },
+    "history": {
+      "total_interactions": 28,
+      "days_in_pipeline": 60
+    }
+  },
+  {
+    "person": {
+      "id": "USR-333k5l",
+      "name": "Maria Silva",
+      "role": "General Manager",
+      "company": "Rio Exports",
+      "industry": "Manufacturing"
+    },
+    "deal": {
+      "stage": "contacted",
+      "deal_value": 55000,
+      "priority": "medium",
+      "expected_close_days": 50
+    },
+    "activity": {
+      "last_contact_days_ago": 12,
+      "last_activity_type": "email_sent",
+      "email_open_rate": 0.30,
+      "email_reply_rate": 0.05,
+      "calls_count": 1,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": "m.silva@rioexports.br",
+      "phone": "+55-21-5555-0333",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["budget", "decision_maker"],
+      "profile_completeness_score": 0.70
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 28.0
+    },
+    "history": {
+      "total_interactions": 3,
+      "days_in_pipeline": 15
+    }
+  },
+  {
+    "person": {
+      "id": "USR-444m6n",
+      "name": "Kenji Sato",
+      "role": "Logistics Lead",
+      "company": "Tokyo Shipping",
+      "industry": "Shipping"
+    },
+    "deal": {
+      "stage": "qualified",
+      "deal_value": 115000,
+      "priority": "high",
+      "expected_close_days": 35
+    },
+    "activity": {
+      "last_contact_days_ago": 4,
+      "last_activity_type": "call",
+      "email_open_rate": 0.65,
+      "email_reply_rate": 0.25,
+      "calls_count": 5,
+      "meetings_count": 2
+    },
+    "contact": {
+      "email": "k.sato@tokyoship.jp",
+      "phone": "+81-3-5555-0888",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["budget"],
+      "profile_completeness_score": 0.88
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 75.0
+    },
+    "history": {
+      "total_interactions": 12,
+      "days_in_pipeline": 30
+    }
+  },
+  {
+    "person": {
+      "id": "USR-555o7p",
+      "name": "Sarah Miller",
+      "role": "Operations Manager",
+      "company": "London Logistics",
+      "industry": "Shipping"
+    },
+    "deal": {
+      "stage": "closed_lost",
+      "deal_value": 42000,
+      "priority": "low",
+      "expected_close_days": 0
+    },
+    "activity": {
+      "last_contact_days_ago": 90,
+      "last_activity_type": "none",
+      "email_open_rate": 0.0,
+      "email_reply_rate": 0.0,
+      "calls_count": 0,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": "s.miller@lonlog.co.uk",
+      "phone": "+44-20-555-0444",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": false
+    },
+    "data_quality": {
+      "missing_fields": ["budget", "timeline", "decision_maker"],
+      "profile_completeness_score": 0.30
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": true,
+      "is_decision_maker": false,
+      "engagement_score": 0.0
+    },
+    "history": {
+      "total_interactions": 1,
+      "days_in_pipeline": 100
+    }
+  },
+  {
+    "person": {
+      "id": "USR-666q8r",
+      "name": "Fatima Zahra",
+      "role": "R&D Director",
+      "company": "Rabat Biotech",
+      "industry": "Healthcare"
+    },
+    "deal": {
+      "stage": "proposal",
+      "deal_value": 142000,
+      "priority": "high",
+      "expected_close_days": 30
+    },
+    "activity": {
+      "last_contact_days_ago": 2,
+      "last_activity_type": "email_reply",
+      "email_open_rate": 0.85,
+      "email_reply_rate": 0.50,
+      "calls_count": 6,
+      "meetings_count": 3
+    },
+    "contact": {
+      "email": "f.zahra@rabatbio.ma",
+      "phone": "+212-5-5555-0101",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": [],
+      "profile_completeness_score": 1.0
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 88.0
+    },
+    "history": {
+      "total_interactions": 15,
+      "days_in_pipeline": 40
+    }
+  },
+  {
+    "person": {
+      "id": "USR-777s9t",
+      "name": "Antonio Costa",
+      "role": "CEO",
+      "company": "Lisbon Tech",
+      "industry": "Software"
+    },
+    "deal": {
+      "stage": "negotiation",
+      "deal_value": 290000,
+      "priority": "high",
+      "expected_close_days": 10
+    },
+    "activity": {
+      "last_contact_days_ago": 1,
+      "last_activity_type": "meeting",
+      "email_open_rate": 0.95,
+      "email_reply_rate": 0.80,
+      "calls_count": 14,
+      "meetings_count": 6
+    },
+    "contact": {
+      "email": "a.costa@lisbontch.pt",
+      "phone": "+351-21-555-0777",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": [],
+      "profile_completeness_score": 1.0
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 99.0
+    },
+    "history": {
+      "total_interactions": 45,
+      "days_in_pipeline": 120
+    }
+  },
+  {
+    "person": {
+      "id": "USR-888u0v",
+      "name": "Klaus Weber",
+      "role": "Sales Manager",
+      "company": "Berlin Auto",
+      "industry": "Automotive"
+    },
+    "deal": {
+      "stage": "qualified",
+      "deal_value": 78000,
+      "priority": "medium",
+      "expected_close_days": 45
+    },
+    "activity": {
+      "last_contact_days_ago": 5,
+      "last_activity_type": "call",
+      "email_open_rate": 0.60,
+      "email_reply_rate": 0.20,
+      "calls_count": 3,
+      "meetings_count": 1
+    },
+    "contact": {
+      "email": "k.weber@berlinauto.de",
+      "phone": "+49-30-555-0222",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["budget"],
+      "profile_completeness_score": 0.88
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 52.0
+    },
+    "history": {
+      "total_interactions": 8,
+      "days_in_pipeline": 25
+    }
+  },
+  {
+    "person": {
+      "id": "USR-999w1x",
+      "name": "Elena Martinez",
+      "role": "CFO",
+      "company": "Madrid Finance",
+      "industry": "Finance"
+    },
+    "deal": {
+      "stage": "closed_won",
+      "deal_value": 245000,
+      "priority": "high",
+      "expected_close_days": 0
+    },
+    "activity": {
+      "last_contact_days_ago": 20,
+      "last_activity_type": "meeting",
+      "email_open_rate": 0.90,
+      "email_reply_rate": 0.70,
+      "calls_count": 9,
+      "meetings_count": 5
+    },
+    "contact": {
+      "email": "e.martinez@madfin.es",
+      "phone": "+34-91-555-0666",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": [],
+      "profile_completeness_score": 1.0
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 94.0
+    },
+    "history": {
+      "total_interactions": 25,
+      "days_in_pipeline": 70
+    }
+  },
+  {
+    "person": {
+      "id": "USR-000y2z",
+      "name": "Simon de Beer",
+      "role": "Operations Manager",
+      "company": "Cape Logistics",
+      "industry": "Shipping"
+    },
+    "deal": {
+      "stage": "qualified",
+      "deal_value": 52000,
+      "priority": "medium",
+      "expected_close_days": 40
+    },
+    "activity": {
+      "last_contact_days_ago": 6,
+      "last_activity_type": "call",
+      "email_open_rate": 0.50,
+      "email_reply_rate": 0.20,
+      "calls_count": 3,
+      "meetings_count": 1
+    },
+    "contact": {
+      "email": "s.debeer@capelog.za",
+      "phone": "+27-21-555-0888",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["budget"],
+      "profile_completeness_score": 0.88
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 45.0
+    },
+    "history": {
+      "total_interactions": 7,
+      "days_in_pipeline": 20
+    }
+  },
+  {
+    "person": {
+      "id": "USR-111a3b",
+      "name": "Lin Wei",
+      "role": "Supply Chain Lead",
+      "company": "Hanoi Industrial",
+      "industry": "Manufacturing"
+    },
+    "deal": {
+      "stage": "lead",
+      "deal_value": 8500,
+      "priority": "low",
+      "expected_close_days": 15
+    },
+    "activity": {
+      "last_contact_days_ago": 18,
+      "last_activity_type": "email_open",
+      "email_open_rate": 0.20,
+      "email_reply_rate": 0.0,
+      "calls_count": 0,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": "lin.wei@hanoiind.vn",
+      "phone": "+84-24-555-0777",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["budget", "timeline", "decision_maker"],
+      "profile_completeness_score": 0.40
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": true,
+      "is_decision_maker": false,
+      "engagement_score": 5.0
+    },
+    "history": {
+      "total_interactions": 2,
+      "days_in_pipeline": 10
+    }
+  },
+  {
+    "person": {
+      "id": "USR-222c4d",
+      "name": "Elias Thorne",
+      "role": "Operations Manager",
+      "company": "Auckland Wind",
+      "industry": "Energy"
+    },
+    "deal": {
+      "stage": "closed_won",
+      "deal_value": 115000,
+      "priority": "high",
+      "expected_close_days": 0
+    },
+    "activity": {
+      "last_contact_days_ago": 12,
+      "last_activity_type": "meeting",
+      "email_open_rate": 0.85,
+      "email_reply_rate": 0.65,
+      "calls_count": 7,
+      "meetings_count": 4
+    },
+    "contact": {
+      "email": "e.thorne@auckwind.nz",
+      "phone": "+64-9-555-0101",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": [],
+      "profile_completeness_score": 1.0
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 91.5
+    },
+    "history": {
+      "total_interactions": 20,
+      "days_in_pipeline": 60
+    }
+  },
+  {
+    "person": {
+      "id": "USR-333e5f",
+      "name": "Sarah Jenkins",
+      "role": "Chief Operating Officer",
+      "company": "Pacific Logistics",
+      "industry": "Shipping"
+    },
+    "deal": {
+      "stage": "qualified",
+      "deal_value": 420000,
+      "priority": "high",
+      "expected_close_days": 60
+    },
+    "activity": {
+      "last_contact_days_ago": 5,
+      "last_activity_type": "email_reply",
+      "email_open_rate": 0.55,
+      "email_reply_rate": 0.25,
+      "calls_count": 3,
+      "meetings_count": 1
+    },
+    "contact": {
+      "email": "s.jenkins@paclog.com",
+      "phone": "+1-555-0303",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["budget"],
+      "profile_completeness_score": 0.90
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 55.0
+    },
+    "history": {
+      "total_interactions": 8,
+      "days_in_pipeline": 25
+    }
+  },
+  {
+    "person": {
+      "id": "USR-444g6h",
+      "name": "Matteo Bianchi",
+      "role": "IT Consultant",
+      "company": "Rome Tech Solutions",
+      "industry": "Consulting"
+    },
+    "deal": {
+      "stage": "proposal",
+      "deal_value": 15000,
+      "priority": "low",
+      "expected_close_days": 10
+    },
+    "activity": {
+      "last_contact_days_ago": 2,
+      "last_activity_type": "email_open",
+      "email_open_rate": 0.60,
+      "email_reply_rate": 0.20,
+      "calls_count": 2,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": "m.bianchi@rometech.it",
+      "phone": "+39-06-555-0444",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["timeline", "decision_maker"],
+      "profile_completeness_score": 0.75
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 38.0
+    },
+    "history": {
+      "total_interactions": 4,
+      "days_in_pipeline": 8
+    }
+  },
+  {
+    "person": {
+      "id": "USR-555i7j",
+      "name": "Aisha Bello",
+      "role": "CEO",
+      "company": "Lagos Digital",
+      "industry": "Tech"
+    },
+    "deal": {
+      "stage": "negotiation",
+      "deal_value": 88000,
+      "priority": "high",
+      "expected_close_days": 14
+    },
+    "activity": {
+      "last_contact_days_ago": 1,
+      "last_activity_type": "meeting",
+      "email_open_rate": 0.95,
+      "email_reply_rate": 0.80,
+      "calls_count": 10,
+      "meetings_count": 4
+    },
+    "contact": {
+      "email": "a.bello@lagosdig.ng",
+      "phone": "+234-1-555-0555",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": [],
+      "profile_completeness_score": 1.0
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 94.5
+    },
+    "history": {
+      "total_interactions": 26,
+      "days_in_pipeline": 45
+    }
+  },
+
+  {
+    "person": {
+      "id": "USR-666k8l",
+      "name": "Jordan Vance",
+      "role": "Procurement Officer",
+      "company": "Summit Peaks",
+      "industry": "Retail"
+    },
+    "deal": {
+      "stage": "lead",
+      "deal_value": 4500,
+      "priority": "low",
+      "expected_close_days": 30
+    },
+    "activity": {
+      "last_contact_days_ago": 45,
+      "last_activity_type": "none",
+      "email_open_rate": 0.0,
+      "email_reply_rate": 0.0,
+      "calls_count": 0,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": null,
+      "phone": "+1-555-0987",
+      "has_email": false,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["email", "budget", "timeline"],
+      "profile_completeness_score": 0.35
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": true,
+      "is_decision_maker": false,
+      "engagement_score": 2.0
+    },
+    "history": {
+      "total_interactions": 0,
+      "days_in_pipeline": 45
+    }
+  },
+  {
+    "person": {
+      "id": "USR-777m9n",
+      "name": "Amara Okafor",
+      "role": "VP Operations",
+      "company": "Lagos Port Auth",
+      "industry": "Shipping"
+    },
+    "deal": {
+      "stage": "qualified",
+      "deal_value": 125000,
+      "priority": "high",
+      "expected_close_days": 40
+    },
+    "activity": {
+      "last_contact_days_ago": 2,
+      "last_activity_type": "call",
+      "email_open_rate": 0.85,
+      "email_reply_rate": 0.20,
+      "calls_count": 4,
+      "meetings_count": 1
+    },
+    "contact": {
+      "email": "a.okafor@lagosport.ng",
+      "phone": null,
+      "has_email": true,
+      "has_phone": false,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["phone"],
+      "profile_completeness_score": 0.82
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 78.4
+    },
+    "history": {
+      "total_interactions": 12,
+      "days_in_pipeline": 30
+    }
+  },
+  {
+    "person": {
+      "id": "USR-888o0p",
+      "name": "Siddharth Rao",
+      "role": "Systems Architect",
+      "company": "Bangalore Tech",
+      "industry": "Software"
+    },
+    "deal": {
+      "stage": "proposal",
+      "deal_value": 55000,
+      "priority": "medium",
+      "expected_close_days": 15
+    },
+    "activity": {
+      "last_contact_days_ago": 1,
+      "last_activity_type": "email_reply",
+      "email_open_rate": 0.95,
+      "email_reply_rate": 0.75,
+      "calls_count": 2,
+      "meetings_count": 1
+    },
+    "contact": {
+      "email": "s.rao@btech.in",
+      "phone": "+91-80-5555-0111",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": [],
+      "profile_completeness_score": 1.0
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 92.1
+    },
+    "history": {
+      "total_interactions": 18,
+      "days_in_pipeline": 22
+    }
+  },
+  {
+    "person": {
+      "id": "USR-999q1r",
+      "name": "Greta Thun",
+      "role": "Sustainability Lead",
+      "company": "Nordic Green",
+      "industry": "Energy"
+    },
+    "deal": {
+      "stage": "closed_lost",
+      "deal_value": 32000,
+      "priority": "low",
+      "expected_close_days": 0
+    },
+    "activity": {
+      "last_contact_days_ago": 150,
+      "last_activity_type": "none",
+      "email_open_rate": 0.05,
+      "email_reply_rate": 0.0,
+      "calls_count": 0,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": null,
+      "phone": null,
+      "has_email": false,
+      "has_phone": false,
+      "consent_to_contact": false
+    },
+    "data_quality": {
+      "missing_fields": ["email", "phone", "budget", "timeline"],
+      "profile_completeness_score": 0.15
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": true,
+      "is_decision_maker": false,
+      "engagement_score": 0.0
+    },
+    "history": {
+      "total_interactions": 1,
+      "days_in_pipeline": 180
+    }
+  },
+  {
+    "person": {
+      "id": "USR-000s2t",
+      "name": "Wei Chen",
+      "role": "Factory Manager",
+      "company": "Shenzhen Electrics",
+      "industry": "Manufacturing"
+    },
+    "deal": {
+      "stage": "negotiation",
+      "deal_value": 210000,
+      "priority": "high",
+      "expected_close_days": 10
+    },
+    "activity": {
+      "last_contact_days_ago": 0,
+      "last_activity_type": "meeting",
+      "email_open_rate": 0.88,
+      "email_reply_rate": 0.60,
+      "calls_count": 15,
+      "meetings_count": 6
+    },
+    "contact": {
+      "email": "w.chen@shenzhen.cn",
+      "phone": "+86-755-5555-0123",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": [],
+      "profile_completeness_score": 1.0
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 97.8
+    },
+    "history": {
+      "total_interactions": 48,
+      "days_in_pipeline": 95
+    }
+  },
+  {
+    "person": {
+      "id": "USR-111u3v",
+      "name": "Luca Bianchi",
+      "role": "Freelance Dev",
+      "company": "N/A",
+      "industry": "Consulting"
+    },
+    "deal": {
+      "stage": "lead",
+      "deal_value": 1500,
+      "priority": "low",
+      "expected_close_days": 14
+    },
+    "activity": {
+      "last_contact_days_ago": 12,
+      "last_activity_type": "email_sent",
+      "email_open_rate": 0.45,
+      "email_reply_rate": 0.0,
+      "calls_count": 0,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": "luca.dev@gmail.com",
+      "phone": null,
+      "has_email": true,
+      "has_phone": false,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["company", "phone", "budget"],
+      "profile_completeness_score": 0.52
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 18.5
+    },
+    "history": {
+      "total_interactions": 2,
+      "days_in_pipeline": 12
+    }
+  },
+  {
+    "person": {
+      "id": "USR-222w4x",
+      "name": "Sofia Hernandez",
+      "role": null,
+      "company": "CDMX Fin",
+      "industry": "Finance"
+    },
+    "deal": {
+      "stage": "contacted",
+      "deal_value": 18000,
+      "priority": "medium",
+      "expected_close_days": 60
+    },
+    "activity": {
+      "last_contact_days_ago": 10,
+      "last_activity_type": "email_open",
+      "email_open_rate": 0.30,
+      "email_reply_rate": 0.0,
+      "calls_count": 1,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": "s.hernandez@cdmxfin.mx",
+      "phone": "+52-55-5555-0789",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["role", "budget", "timeline"],
+      "profile_completeness_score": 0.60
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 24.0
+    },
+    "history": {
+      "total_interactions": 4,
+      "days_in_pipeline": 20
+    }
+  },
+  {
+    "person": {
+      "id": "USR-333y5z",
+      "name": "Oliver Twist",
+      "role": "Archivist",
+      "company": "London Museum",
+      "industry": "Arts"
+    },
+    "deal": {
+      "stage": "qualified",
+      "deal_value": 7500,
+      "priority": "low",
+      "expected_close_days": 30
+    },
+    "activity": {
+      "last_contact_days_ago": 5,
+      "last_activity_type": "email_reply",
+      "email_open_rate": 0.70,
+      "email_reply_rate": 0.50,
+      "calls_count": 2,
+      "meetings_count": 1
+    },
+    "contact": {
+      "email": "otwist@londonmuseum.org",
+      "phone": null,
+      "has_email": true,
+      "has_phone": false,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["phone", "budget"],
+      "profile_completeness_score": 0.75
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 58.0
+    },
+    "history": {
+      "total_interactions": 6,
+      "days_in_pipeline": 15
+    }
+  },
+  {
+    "person": {
+      "id": "USR-444a6b",
+      "name": "Jean-Pierre",
+      "role": "CEO",
+      "company": "Lyon Tech",
+      "industry": "Software"
+    },
+    "deal": {
+      "stage": "negotiation",
+      "deal_value": 89000,
+      "priority": "high",
+      "expected_close_days": 5
+    },
+    "activity": {
+      "last_contact_days_ago": 1,
+      "last_activity_type": "call",
+      "email_open_rate": 0.98,
+      "email_reply_rate": 0.90,
+      "calls_count": 8,
+      "meetings_count": 4
+    },
+    "contact": {
+      "email": "jp@lyontech.fr",
+      "phone": "+33-4-5555-0909",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": [],
+      "profile_completeness_score": 1.0
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 96.5
+    },
+    "history": {
+      "total_interactions": 30,
+      "days_in_pipeline": 50
+    }
+  },
+  {
+    "person": {
+      "id": "USR-555c7d",
+      "name": "Anonymous User",
+      "role": "Lead Engineer",
+      "company": null,
+      "industry": "Tech"
+    },
+    "deal": {
+      "stage": "lead",
+      "deal_value": 25000,
+      "priority": "medium",
+      "expected_close_days": 90
+    },
+    "activity": {
+      "last_contact_days_ago": 60,
+      "last_activity_type": "none",
+      "email_open_rate": 0.0,
+      "email_reply_rate": 0.0,
+      "calls_count": 0,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": "eng.lead.anon@outlook.com",
+      "phone": null,
+      "has_email": true,
+      "has_phone": false,
+      "consent_to_contact": false
+    },
+    "data_quality": {
+      "missing_fields": ["name", "company", "phone", "budget"],
+      "profile_completeness_score": 0.28
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": true,
+      "is_decision_maker": true,
+      "engagement_score": 0.0
+    },
+    "history": {
+      "total_interactions": 0,
+      "days_in_pipeline": 60
+    }
+  },
+  {
+    "person": {
+      "id": "USR-666e8f",
+      "name": "Tariq Aziz",
+      "role": "Director",
+      "company": "Dubai Logistics",
+      "industry": "Shipping"
+    },
+    "deal": {
+      "stage": "closed_won",
+      "deal_value": 450000,
+      "priority": "high",
+      "expected_close_days": 0
+    },
+    "activity": {
+      "last_contact_days_ago": 15,
+      "last_activity_type": "call",
+      "email_open_rate": 0.80,
+      "email_reply_rate": 0.40,
+      "calls_count": 12,
+      "meetings_count": 5
+    },
+    "contact": {
+      "email": "t.aziz@dubailog.ae",
+      "phone": "+971-4-555-0101",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": [],
+      "profile_completeness_score": 1.0
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 93.2
+    },
+    "history": {
+      "total_interactions": 40,
+      "days_in_pipeline": 120
+    }
+  },
+  {
+    "person": {
+      "id": "USR-777g9h",
+      "name": "Marta Kowalski",
+      "role": "HR Manager",
+      "company": "Warsaw Steel",
+      "industry": "Industrial"
+    },
+    "deal": {
+      "stage": "contacted",
+      "deal_value": 15000,
+      "priority": "low",
+      "expected_close_days": 45
+    },
+    "activity": {
+      "last_contact_days_ago": 5,
+      "last_activity_type": "email_sent",
+      "email_open_rate": 0.10,
+      "email_reply_rate": 0.0,
+      "calls_count": 0,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": "m.kowalski@warsawsteel.pl",
+      "phone": null,
+      "has_email": true,
+      "has_phone": false,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["phone", "budget", "decision_maker"],
+      "profile_completeness_score": 0.45
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 5.4
+    },
+    "history": {
+      "total_interactions": 2,
+      "days_in_pipeline": 8
+    }
+  },
+  {
+    "person": {
+      "id": "USR-888i9j",
+      "name": "Lars von Trier",
+      "role": "Director",
+      "company": "Copenhagen Film",
+      "industry": "Arts"
+    },
+    "deal": {
+      "stage": "proposal",
+      "deal_value": 65000,
+      "priority": "medium",
+      "expected_close_days": 20
+    },
+    "activity": {
+      "last_contact_days_ago": 3,
+      "last_activity_type": "meeting",
+      "email_open_rate": 0.65,
+      "email_reply_rate": 0.30,
+      "calls_count": 2,
+      "meetings_count": 1
+    },
+    "contact": {
+      "email": "lars@cphfilm.dk",
+      "phone": "+45-33-5555-0888",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["budget"],
+      "profile_completeness_score": 0.90
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 67.5
+    },
+    "history": {
+      "total_interactions": 8,
+      "days_in_pipeline": 25
+    }
+  },
+  {
+    "person": {
+      "id": "USR-999k0l",
+      "name": "Yousif Al-Jarrah",
+      "role": "Head of IT",
+      "company": "Amman Systems",
+      "industry": "Tech"
+    },
+    "deal": {
+      "stage": "qualified",
+      "deal_value": 42000,
+      "priority": "medium",
+      "expected_close_days": 35
+    },
+    "activity": {
+      "last_contact_days_ago": 8,
+      "last_activity_type": "email_sent",
+      "email_open_rate": 0.50,
+      "email_reply_rate": 0.15,
+      "calls_count": 1,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": null,
+      "phone": "+962-6-5555-0777",
+      "has_email": false,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["email", "budget"],
+      "profile_completeness_score": 0.65
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 32.0
+    },
+    "history": {
+      "total_interactions": 4,
+      "days_in_pipeline": 15
+    }
+  },
+  {
+    "person": {
+      "id": "USR-000m1n",
+      "name": "Mariah Carey",
+      "role": "Events Coordinator",
+      "company": "Holiday Inn",
+      "industry": "Hospitality"
+    },
+    "deal": {
+      "stage": "closed_lost",
+      "deal_value": 12000,
+      "priority": "low",
+      "expected_close_days": 0
+    },
+    "activity": {
+      "last_contact_days_ago": 200,
+      "last_activity_type": "none",
+      "email_open_rate": 0.0,
+      "email_reply_rate": 0.0,
+      "calls_count": 0,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": "mcarey@holidayinn.com",
+      "phone": null,
+      "has_email": true,
+      "has_phone": false,
+      "consent_to_contact": false
+    },
+    "data_quality": {
+      "missing_fields": ["phone", "budget", "timeline"],
+      "profile_completeness_score": 0.35
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": true,
+      "is_decision_maker": false,
+      "engagement_score": 0.0
+    },
+    "history": {
+      "total_interactions": 1,
+      "days_in_pipeline": 210
+    }
+  },
+  {
+    "person": {
+      "id": "USR-111o2p",
+      "name": "Taro Yamada",
+      "role": "Plant Supervisor",
+      "company": "Osaka Precision",
+      "industry": "Manufacturing"
+    },
+    "deal": {
+      "stage": "negotiation",
+      "deal_value": 115000,
+      "priority": "high",
+      "expected_close_days": 7
+    },
+    "activity": {
+      "last_contact_days_ago": 1,
+      "last_activity_type": "call",
+      "email_open_rate": 0.90,
+      "email_reply_rate": 0.70,
+      "calls_count": 10,
+      "meetings_count": 4
+    },
+    "contact": {
+      "email": "t.yamada@osakap.jp",
+      "phone": "+81-6-5555-0999",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": [],
+      "profile_completeness_score": 1.0
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 95.5
+    },
+    "history": {
+      "total_interactions": 32,
+      "days_in_pipeline": 80
+    }
+  },
+  {
+    "person": {
+      "id": "USR-222q3r",
+      "name": "Ines de la Fressange",
+      "role": "Fashion Consultant",
+      "company": null,
+      "industry": "Arts"
+    },
+    "deal": {
+      "stage": "lead",
+      "deal_value": 5000,
+      "priority": "low",
+      "expected_close_days": 30
+    },
+    "activity": {
+      "last_contact_days_ago": 14,
+      "last_activity_type": "email_open",
+      "email_open_rate": 0.40,
+      "email_reply_rate": 0.0,
+      "calls_count": 0,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": "ines.fressange@outlook.fr",
+      "phone": null,
+      "has_email": true,
+      "has_phone": false,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["company", "phone", "budget"],
+      "profile_completeness_score": 0.48
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 15.0
+    },
+    "history": {
+      "total_interactions": 3,
+      "days_in_pipeline": 15
+    }
+  },
+  {
+    "person": {
+      "id": "USR-333s4t",
+      "name": "Ahmed Hassan",
+      "role": "Logistics",
+      "company": "Suez Canal Auth",
+      "industry": "Shipping"
+    },
+    "deal": {
+      "stage": "proposal",
+      "deal_value": 245000,
+      "priority": "high",
+      "expected_close_days": 20
+    },
+    "activity": {
+      "last_contact_days_ago": 3,
+      "last_activity_type": "email_reply",
+      "email_open_rate": 0.85,
+      "email_reply_rate": 0.45,
+      "calls_count": 5,
+      "meetings_count": 2
+    },
+    "contact": {
+      "email": "a.hassan@suez.eg",
+      "phone": "+20-66-5555-0101",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["decision_maker"],
+      "profile_completeness_score": 0.92
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 82.0
+    },
+    "history": {
+      "total_interactions": 15,
+      "days_in_pipeline": 35
+    }
+  },
+  {
+    "person": {
+      "id": "USR-444u5v",
+      "name": "Jane Doe",
+      "role": "Admin",
+      "company": "Global Corp",
+      "industry": "Tech"
+    },
+    "deal": {
+      "stage": "contacted",
+      "deal_value": 1000,
+      "priority": "low",
+      "expected_close_days": 90
+    },
+    "activity": {
+      "last_contact_days_ago": 25,
+      "last_activity_type": "email_sent",
+      "email_open_rate": 0.10,
+      "email_reply_rate": 0.0,
+      "calls_count": 1,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": null,
+      "phone": null,
+      "has_email": false,
+      "has_phone": false,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["email", "phone", "budget", "timeline"],
+      "profile_completeness_score": 0.35
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": true,
+      "is_decision_maker": false,
+      "engagement_score": 4.5
+    },
+    "history": {
+      "total_interactions": 2,
+      "days_in_pipeline": 25
+    }
+  },
+  {
+    "person": {
+      "id": "USR-555w6x",
+      "name": "Alex Smith",
+      "role": "Operations",
+      "company": "Midwest Auto",
+      "industry": "Automotive"
+    },
+    "deal": {
+      "stage": "qualified",
+      "deal_value": 45000,
+      "priority": "medium",
+      "expected_close_days": 30
+    },
+    "activity": {
+      "last_contact_days_ago": 4,
+      "last_activity_type": "call",
+      "email_open_rate": 0.60,
+      "email_reply_rate": 0.25,
+      "calls_count": 3,
+      "meetings_count": 1
+    },
+    "contact": {
+      "email": "alex.smith@midwestauto.com",
+      "phone": "+1-555-0222",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["budget"],
+      "profile_completeness_score": 0.90
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 55.0
+    },
+    "history": {
+      "total_interactions": 7,
+      "days_in_pipeline": 15
+    }
+  },
+  {
+    "person": {
+      "id": "USR-666y7z",
+      "name": "Finn Volkov",
+      "role": "Chief Architect",
+      "company": "Nordic Build",
+      "industry": "Construction"
+    },
+    "deal": {
+      "stage": "negotiation",
+      "deal_value": 310000,
+      "priority": "high",
+      "expected_close_days": 12
+    },
+    "activity": {
+      "last_contact_days_ago": 1,
+      "last_activity_type": "meeting",
+      "email_open_rate": 0.92,
+      "email_reply_rate": 0.80,
+      "calls_count": 14,
+      "meetings_count": 5
+    },
+    "contact": {
+      "email": "f.volkov@nordicbuild.se",
+      "phone": "+46-8-555-0101",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": [],
+      "profile_completeness_score": 1.0
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 96.2
+    },
+    "history": {
+      "total_interactions": 38,
+      "days_in_pipeline": 85
+    }
+  },
+  {
+    "person": {
+      "id": "USR-777a8b",
+      "name": "Li Na",
+      "role": null,
+      "company": "Shanghai Import",
+      "industry": "Shipping"
+    },
+    "deal": {
+      "stage": "lead",
+      "deal_value": 12000,
+      "priority": "low",
+      "expected_close_days": 45
+    },
+    "activity": {
+      "last_contact_days_ago": 30,
+      "last_activity_type": "email_open",
+      "email_open_rate": 0.15,
+      "email_reply_rate": 0.0,
+      "calls_count": 0,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": null,
+      "phone": null,
+      "has_email": false,
+      "has_phone": false,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["role", "email", "phone", "budget"],
+      "profile_completeness_score": 0.30
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": true,
+      "is_decision_maker": false,
+      "engagement_score": 4.0
+    },
+    "history": {
+      "total_interactions": 1,
+      "days_in_pipeline": 30
+    }
+  },
+  {
+    "person": {
+      "id": "USR-888c9d",
+      "name": "Omar Sharif",
+      "role": "Regional Manager",
+      "company": null,
+      "industry": "Retail"
+    },
+    "deal": {
+      "stage": "qualified",
+      "deal_value": 28000,
+      "priority": "medium",
+      "expected_close_days": 20
+    },
+    "activity": {
+      "last_contact_days_ago": 5,
+      "last_activity_type": "call",
+      "email_open_rate": 0.60,
+      "email_reply_rate": 0.35,
+      "calls_count": 3,
+      "meetings_count": 1
+    },
+    "contact": {
+      "email": "o.sharif@outlook.com",
+      "phone": "+971-50-555-1212",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["company", "budget"],
+      "profile_completeness_score": 0.72
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 58.5
+    },
+    "history": {
+      "total_interactions": 7,
+      "days_in_pipeline": 14
+    }
+  },
+  {
+    "person": {
+      "id": "USR-999e0f",
+      "name": "Siobhan O'Reilly",
+      "role": "Legal Counsel",
+      "company": "Dublin Law",
+      "industry": null
+    },
+    "deal": {
+      "stage": "proposal",
+      "deal_value": 45000,
+      "priority": "medium",
+      "expected_close_days": 30
+    },
+    "activity": {
+      "last_contact_days_ago": 3,
+      "last_activity_type": "email_reply",
+      "email_open_rate": 0.85,
+      "email_reply_rate": 0.50,
+      "calls_count": 2,
+      "meetings_count": 1
+    },
+    "contact": {
+      "email": "s.oreilly@dublaw.ie",
+      "phone": null,
+      "has_email": true,
+      "has_phone": false,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["industry", "phone", "budget"],
+      "profile_completeness_score": 0.65
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 71.0
+    },
+    "history": {
+      "total_interactions": 9,
+      "days_in_pipeline": 25
+    }
+  },
+  {
+    "person": {
+      "id": "USR-000g1h",
+      "name": "Xavi Alonso",
+      "role": "Product Owner",
+      "company": "Munich Systems",
+      "industry": "Software"
+    },
+    "deal": {
+      "stage": "closed_won",
+      "deal_value": 150000,
+      "priority": "high",
+      "expected_close_days": 0
+    },
+    "activity": {
+      "last_contact_days_ago": 10,
+      "last_activity_type": "call",
+      "email_open_rate": 0.90,
+      "email_reply_rate": 0.75,
+      "calls_count": 9,
+      "meetings_count": 4
+    },
+    "contact": {
+      "email": "x.alonso@munichsys.de",
+      "phone": "+49-89-555-0987",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": [],
+      "profile_completeness_score": 1.0
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 94.5
+    },
+    "history": {
+      "total_interactions": 22,
+      "days_in_pipeline": 60
+    }
+  },
+  {
+    "person": {
+      "id": "USR-111i2j",
+      "name": "Maria Rossi",
+      "role": "Buyer",
+      "company": "Florence Fashion",
+      "industry": "Arts"
+    },
+    "deal": {
+      "stage": "closed_lost",
+      "deal_value": 5000,
+      "priority": "low",
+      "expected_close_days": 0
+    },
+    "activity": {
+      "last_contact_days_ago": 95,
+      "last_activity_type": "none",
+      "email_open_rate": 0.05,
+      "email_reply_rate": 0.0,
+      "calls_count": 0,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": "m.rossi@florence.it",
+      "phone": null,
+      "has_email": true,
+      "has_phone": false,
+      "consent_to_contact": false
+    },
+    "data_quality": {
+      "missing_fields": ["phone", "budget", "timeline"],
+      "profile_completeness_score": 0.38
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": true,
+      "is_decision_maker": false,
+      "engagement_score": 0.0
+    },
+    "history": {
+      "total_interactions": 1,
+      "days_in_pipeline": 100
+    }
+  },
+  {
+    "person": {
+      "id": "USR-222k3l",
+      "name": "David Miller",
+      "role": "COO",
+      "company": "Austin Tech",
+      "industry": null
+    },
+    "deal": {
+      "stage": "negotiation",
+      "deal_value": 95000,
+      "priority": "high",
+      "expected_close_days": 10
+    },
+    "activity": {
+      "last_contact_days_ago": 2,
+      "last_activity_type": "email_reply",
+      "email_open_rate": 0.88,
+      "email_reply_rate": 0.60,
+      "calls_count": 6,
+      "meetings_count": 3
+    },
+    "contact": {
+      "email": "dmiller@austintech.io",
+      "phone": "+1-512-555-0101",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["industry"],
+      "profile_completeness_score": 0.90
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 88.0
+    },
+    "history": {
+      "total_interactions": 15,
+      "days_in_pipeline": 40
+    }
+  },
+  {
+    "person": {
+      "id": "USR-333m4n",
+      "name": "Jane Wilson",
+      "role": "Admin",
+      "company": null,
+      "industry": "Consulting"
+    },
+    "deal": {
+      "stage": "contacted",
+      "deal_value": 2500,
+      "priority": "low",
+      "expected_close_days": 15
+    },
+    "activity": {
+      "last_contact_days_ago": 12,
+      "last_activity_type": "email_sent",
+      "email_open_rate": 0.40,
+      "email_reply_rate": 0.0,
+      "calls_count": 0,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": "jwilson@consult.net",
+      "phone": null,
+      "has_email": true,
+      "has_phone": false,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["company", "phone", "budget", "timeline"],
+      "profile_completeness_score": 0.42
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 12.0
+    },
+    "history": {
+      "total_interactions": 2,
+      "days_in_pipeline": 12
+    }
+  },
+  {
+    "person": {
+      "id": "USR-444o5p",
+      "name": "Ahmed Ibrahim",
+      "role": "Procurement Director",
+      "company": "Doha Gas",
+      "industry": "Energy"
+    },
+    "deal": {
+      "stage": "qualified",
+      "deal_value": 420000,
+      "priority": "high",
+      "expected_close_days": 45
+    },
+    "activity": {
+      "last_contact_days_ago": 4,
+      "last_activity_type": "call",
+      "email_open_rate": 0.70,
+      "email_reply_rate": 0.30,
+      "calls_count": 5,
+      "meetings_count": 2
+    },
+    "contact": {
+      "email": "a.ibrahim@dohagas.qa",
+      "phone": "+974-44-555-0999",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["budget"],
+      "profile_completeness_score": 0.92
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 76.5
+    },
+    "history": {
+      "total_interactions": 12,
+      "days_in_pipeline": 30
+    }
+  },
+  {
+    "person": {
+      "id": "USR-555q6r",
+      "name": "Kenji Ito",
+      "role": "Safety Lead",
+      "company": "Kyoto Auto",
+      "industry": null
+    },
+    "deal": {
+      "stage": "lead",
+      "deal_value": 8000,
+      "priority": "low",
+      "expected_close_days": 60
+    },
+    "activity": {
+      "last_contact_days_ago": 18,
+      "last_activity_type": "email_open",
+      "email_open_rate": 0.25,
+      "email_reply_rate": 0.0,
+      "calls_count": 0,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": null,
+      "phone": "+81-75-555-0122",
+      "has_email": false,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["industry", "email", "budget", "timeline"],
+      "profile_completeness_score": 0.35
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": true,
+      "is_decision_maker": false,
+      "engagement_score": 8.0
+    },
+    "history": {
+      "total_interactions": 2,
+      "days_in_pipeline": 18
+    }
+  },
+  {
+    "person": {
+      "id": "USR-666s7t",
+      "name": "Isabella Souza",
+      "role": "Marketing Director",
+      "company": "Sao Paulo Media",
+      "industry": "Media"
+    },
+    "deal": {
+      "stage": "proposal",
+      "deal_value": 52000,
+      "priority": "medium",
+      "expected_close_days": 15
+    },
+    "activity": {
+      "last_contact_days_ago": 2,
+      "last_activity_type": "email_reply",
+      "email_open_rate": 0.85,
+      "email_reply_rate": 0.45,
+      "calls_count": 4,
+      "meetings_count": 2
+    },
+    "contact": {
+      "email": "isouza@spmedia.com.br",
+      "phone": null,
+      "has_email": true,
+      "has_phone": false,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["phone"],
+      "profile_completeness_score": 0.85
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 81.2
+    },
+    "history": {
+      "total_interactions": 10,
+      "days_in_pipeline": 20
+    }
+  },
+  {
+    "person": {
+      "id": "USR-777u8v",
+      "name": "Niklas Berg",
+      "role": "Systems Lead",
+      "company": null,
+      "industry": "Tech"
+    },
+    "deal": {
+      "stage": "negotiation",
+      "deal_value": 115000,
+      "priority": "high",
+      "expected_close_days": 5
+    },
+    "activity": {
+      "last_contact_days_ago": 1,
+      "last_activity_type": "call",
+      "email_open_rate": 0.95,
+      "email_reply_rate": 0.85,
+      "calls_count": 12,
+      "meetings_count": 4
+    },
+    "contact": {
+      "email": "n.berg@gmail.com",
+      "phone": "+47-22-555-0888",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["company"],
+      "profile_completeness_score": 0.88
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 93.8
+    },
+    "history": {
+      "total_interactions": 28,
+      "days_in_pipeline": 50
+    }
+  },
+  {
+    "person": {
+      "id": "USR-888w9x",
+      "name": "Sita Ramakrishnan",
+      "role": "HR Head",
+      "company": "Mumbai Ind",
+      "industry": null
+    },
+    "deal": {
+      "stage": "contacted",
+      "deal_value": 15000,
+      "priority": "low",
+      "expected_close_days": 40
+    },
+    "activity": {
+      "last_contact_days_ago": 10,
+      "last_activity_type": "email_open",
+      "email_open_rate": 0.30,
+      "email_reply_rate": 0.05,
+      "calls_count": 1,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": "sita.rama@mumbaiind.in",
+      "phone": null,
+      "has_email": true,
+      "has_phone": false,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["industry", "phone", "budget", "decision_maker"],
+      "profile_completeness_score": 0.40
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 15.0
+    },
+    "history": {
+      "total_interactions": 3,
+      "days_in_pipeline": 10
+    }
+  },
+  {
+    "person": {
+      "id": "USR-999a0b",
+      "name": "Liam Jenkins",
+      "role": "CEO",
+      "company": "London SaaS",
+      "industry": "Software"
+    },
+    "deal": {
+      "stage": "closed_won",
+      "deal_value": 245000,
+      "priority": "high",
+      "expected_close_days": 0
+    },
+    "activity": {
+      "last_contact_days_ago": 20,
+      "last_activity_type": "meeting",
+      "email_open_rate": 0.95,
+      "email_reply_rate": 0.80,
+      "calls_count": 10,
+      "meetings_count": 6
+    },
+    "contact": {
+      "email": "liam@londonsaas.co.uk",
+      "phone": "+44-20-555-0303",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": [],
+      "profile_completeness_score": 1.0
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 98.5
+    },
+    "history": {
+      "total_interactions": 35,
+      "days_in_pipeline": 90
+    }
+  },
+  {
+    "person": {
+      "id": "USR-000c1d",
+      "name": "Yousif Aziz",
+      "role": null,
+      "company": "Baghdad Oil",
+      "industry": "Energy"
+    },
+    "deal": {
+      "stage": "qualified",
+      "deal_value": 185000,
+      "priority": "high",
+      "expected_close_days": 35
+    },
+    "activity": {
+      "last_contact_days_ago": 6,
+      "last_activity_type": "call",
+      "email_open_rate": 0.50,
+      "email_reply_rate": 0.20,
+      "calls_count": 4,
+      "meetings_count": 1
+    },
+    "contact": {
+      "email": null,
+      "phone": "+964-1-555-0777",
+      "has_email": false,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["role", "email", "budget"],
+      "profile_completeness_score": 0.55
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 42.0
+    },
+    "history": {
+      "total_interactions": 7,
+      "days_in_pipeline": 20
+    }
+  },
+  {
+    "person": {
+      "id": "USR-111e2f",
+      "name": "Mariah Garcia",
+      "role": "CFO",
+      "company": "Buenos Aires Fin",
+      "industry": "Finance"
+    },
+    "deal": {
+      "stage": "negotiation",
+      "deal_value": 290000,
+      "priority": "high",
+      "expected_close_days": 7
+    },
+    "activity": {
+      "last_contact_days_ago": 1,
+      "last_activity_type": "meeting",
+      "email_open_rate": 0.95,
+      "email_reply_rate": 0.85,
+      "calls_count": 12,
+      "meetings_count": 5
+    },
+    "contact": {
+      "email": "m.garcia@bafin.ar",
+      "phone": "+54-11-555-0888",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": [],
+      "profile_completeness_score": 1.0
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 97.2
+    },
+    "history": {
+      "total_interactions": 40,
+      "days_in_pipeline": 110
+    }
+  },
+  {
+    "person": {
+      "id": "USR-222g3h",
+      "name": "Simon Baker",
+      "role": "Logistics",
+      "company": "Cape Logistics",
+      "industry": "Shipping"
+    },
+    "deal": {
+      "stage": "qualified",
+      "deal_value": 52000,
+      "priority": "medium",
+      "expected_close_days": 40
+    },
+    "activity": {
+      "last_contact_days_ago": 6,
+      "last_activity_type": "call",
+      "email_open_rate": 0.50,
+      "email_reply_rate": 0.20,
+      "calls_count": 3,
+      "meetings_count": 1
+    },
+    "contact": {
+      "email": "s.baker@capelog.za",
+      "phone": null,
+      "has_email": true,
+      "has_phone": false,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["phone", "budget"],
+      "profile_completeness_score": 0.78
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 45.0
+    },
+    "history": {
+      "total_interactions": 7,
+      "days_in_pipeline": 20
+    }
+  },
+  {
+    "person": {
+      "id": "USR-333i4j",
+      "name": "Elena Popescu",
+      "role": "Ops Manager",
+      "company": "Bucharest Log",
+      "industry": null
+    },
+    "deal": {
+      "stage": "proposal",
+      "deal_value": 52000,
+      "priority": "medium",
+      "expected_close_days": 20
+    },
+    "activity": {
+      "last_contact_days_ago": 3,
+      "last_activity_type": "email_reply",
+      "email_open_rate": 0.75,
+      "email_reply_rate": 0.40,
+      "calls_count": 4,
+      "meetings_count": 2
+    },
+    "contact": {
+      "email": null,
+      "phone": "+40-21-555-0101",
+      "has_email": false,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["industry", "email"],
+      "profile_completeness_score": 0.60
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 72.0
+    },
+    "history": {
+      "total_interactions": 10,
+      "days_in_pipeline": 25
+    }
+  },
+  {
+    "person": {
+      "id": "USR-444k5l",
+      "name": "Ahmed Mansour",
+      "role": "CFO",
+      "company": null,
+      "industry": "Finance"
+    },
+    "deal": {
+      "stage": "closed_won",
+      "deal_value": 185000,
+      "priority": "high",
+      "expected_close_days": 0
+    },
+    "activity": {
+      "last_contact_days_ago": 15,
+      "last_activity_type": "meeting",
+      "email_open_rate": 0.90,
+      "email_reply_rate": 0.60,
+      "calls_count": 8,
+      "meetings_count": 4
+    },
+    "contact": {
+      "email": "a.mansour@cairofin.eg",
+      "phone": "+20-2-5555-0888",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["company"],
+      "profile_completeness_score": 0.88
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 91.0
+    },
+    "history": {
+      "total_interactions": 22,
+      "days_in_pipeline": 50
+    }
+  },
+  {
+    "person": {
+      "id": "USR-555m6n",
+      "name": "Sofia Rossi",
+      "role": "Marketing",
+      "company": "Milan Media",
+      "industry": "Media"
+    },
+    "deal": {
+      "stage": "qualified",
+      "deal_value": 24000,
+      "priority": "medium",
+      "expected_close_days": 40
+    },
+    "activity": {
+      "last_contact_days_ago": 8,
+      "last_activity_type": "email_open",
+      "email_open_rate": 0.50,
+      "email_reply_rate": 0.15,
+      "calls_count": 2,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": "s.rossi@milanmedia.it",
+      "phone": null,
+      "has_email": true,
+      "has_phone": false,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["phone", "budget"],
+      "profile_completeness_score": 0.78
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 42.0
+    },
+    "history": {
+      "total_interactions": 6,
+      "days_in_pipeline": 18
+    }
+  },
+  {
+    "person": {
+      "id": "USR-666o7p",
+      "name": "Arjun Mehta",
+      "role": "Lead Developer",
+      "company": "Pune Soft",
+      "industry": "Software"
+    },
+    "deal": {
+      "stage": "proposal",
+      "deal_value": 35000,
+      "priority": "medium",
+      "expected_close_days": 14
+    },
+    "activity": {
+      "last_contact_days_ago": 2,
+      "last_activity_type": "email_reply",
+      "email_open_rate": 0.88,
+      "email_reply_rate": 0.65,
+      "calls_count": 3,
+      "meetings_count": 1
+    },
+    "contact": {
+      "email": "a.mehta@punesoft.in",
+      "phone": null,
+      "has_email": true,
+      "has_phone": false,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["phone", "budget"],
+      "profile_completeness_score": 0.78
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 74.2
+    },
+    "history": {
+      "total_interactions": 8,
+      "days_in_pipeline": 15
+    }
+  },
+  {
+    "person": {
+      "id": "USR-777q8r",
+      "name": "Elena Fischer",
+      "role": null,
+      "company": "Hamburg Logistics",
+      "industry": "Shipping"
+    },
+    "deal": {
+      "stage": "lead",
+      "deal_value": 9000,
+      "priority": "low",
+      "expected_close_days": 60
+    },
+    "activity": {
+      "last_contact_days_ago": 25,
+      "last_activity_type": "email_open",
+      "email_open_rate": 0.20,
+      "email_reply_rate": 0.0,
+      "calls_count": 0,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": null,
+      "phone": "+49-40-555-0123",
+      "has_email": false,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["role", "email", "budget", "timeline"],
+      "profile_completeness_score": 0.35
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": true,
+      "is_decision_maker": false,
+      "engagement_score": 5.0
+    },
+    "history": {
+      "total_interactions": 1,
+      "days_in_pipeline": 25
+    }
+  },
+  {
+    "person": {
+      "id": "USR-888s9t",
+      "name": "Marco Polo",
+      "role": "Expedition Lead",
+      "company": null,
+      "industry": "Travel"
+    },
+    "deal": {
+      "stage": "qualified",
+      "deal_value": 45000,
+      "priority": "medium",
+      "expected_close_days": 30
+    },
+    "activity": {
+      "last_contact_days_ago": 5,
+      "last_activity_type": "call",
+      "email_open_rate": 0.55,
+      "email_reply_rate": 0.20,
+      "calls_count": 4,
+      "meetings_count": 1
+    },
+    "contact": {
+      "email": "m.polo@venice.it",
+      "phone": "+39-041-555-0999",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["company"],
+      "profile_completeness_score": 0.88
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 48.0
+    },
+    "history": {
+      "total_interactions": 10,
+      "days_in_pipeline": 20
+    }
+  },
+  {
+    "person": {
+      "id": "USR-999u0v",
+      "name": "Hana Tanaka",
+      "role": "Quality Control",
+      "company": "Osaka Electronics",
+      "industry": null
+    },
+    "deal": {
+      "stage": "negotiation",
+      "deal_value": 82000,
+      "priority": "high",
+      "expected_close_days": 7
+    },
+    "activity": {
+      "last_contact_days_ago": 1,
+      "last_activity_type": "email_reply",
+      "email_open_rate": 0.95,
+      "email_reply_rate": 0.80,
+      "calls_count": 8,
+      "meetings_count": 3
+    },
+    "contact": {
+      "email": "h.tanaka@osaka-elec.jp",
+      "phone": null,
+      "has_email": true,
+      "has_phone": false,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["industry", "phone"],
+      "profile_completeness_score": 0.72
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 91.5
+    },
+    "history": {
+      "total_interactions": 24,
+      "days_in_pipeline": 55
+    }
+  },
+  {
+    "person": {
+      "id": "USR-000w1x",
+      "name": "Robert Oppenheimer",
+      "role": "Head of Research",
+      "company": "Los Alamos Lab",
+      "industry": "Science"
+    },
+    "deal": {
+      "stage": "closed_won",
+      "deal_value": 500000,
+      "priority": "high",
+      "expected_close_days": 0
+    },
+    "activity": {
+      "last_contact_days_ago": 20,
+      "last_activity_type": "meeting",
+      "email_open_rate": 0.98,
+      "email_reply_rate": 0.85,
+      "calls_count": 15,
+      "meetings_count": 8
+    },
+    "contact": {
+      "email": "oppie@lanl.gov",
+      "phone": "+1-505-555-0194",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": [],
+      "profile_completeness_score": 1.0
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 99.1
+    },
+    "history": {
+      "total_interactions": 42,
+      "days_in_pipeline": 150
+    }
+  },
+  {
+    "person": {
+      "id": "USR-111y2z",
+      "name": "Anonymous Lead",
+      "role": null,
+      "company": null,
+      "industry": null
+    },
+    "deal": {
+      "stage": "lead",
+      "deal_value": 5000,
+      "priority": "low",
+      "expected_close_days": 90
+    },
+    "activity": {
+      "last_contact_days_ago": 120,
+      "last_activity_type": "none",
+      "email_open_rate": 0.0,
+      "email_reply_rate": 0.0,
+      "calls_count": 0,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": "hidden-user@protonmail.com",
+      "phone": null,
+      "has_email": true,
+      "has_phone": false,
+      "consent_to_contact": false
+    },
+    "data_quality": {
+      "missing_fields": ["name", "role", "company", "industry", "phone"],
+      "profile_completeness_score": 0.15
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": true,
+      "is_decision_maker": false,
+      "engagement_score": 0.0
+    },
+    "history": {
+      "total_interactions": 0,
+      "days_in_pipeline": 120
+    }
+  },
+  {
+    "person": {
+      "id": "USR-222a3b",
+      "name": "Fatima Al-Fassi",
+      "role": "Founder",
+      "company": "Casablanca Tech",
+      "industry": "Software"
+    },
+    "deal": {
+      "stage": "qualified",
+      "deal_value": 24000,
+      "priority": "medium",
+      "expected_close_days": 40
+    },
+    "activity": {
+      "last_contact_days_ago": 8,
+      "last_activity_type": "email_sent",
+      "email_open_rate": 0.45,
+      "email_reply_rate": 0.10,
+      "calls_count": 1,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": "fatima@casatech.ma",
+      "phone": null,
+      "has_email": true,
+      "has_phone": false,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["phone", "budget"],
+      "profile_completeness_score": 0.72
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 35.0
+    },
+    "history": {
+      "total_interactions": 4,
+      "days_in_pipeline": 12
+    }
+  },
+  {
+    "person": {
+      "id": "USR-333c4d",
+      "name": "Jean Dupont",
+      "role": "Manager",
+      "company": "Paris Supply",
+      "industry": null
+    },
+    "deal": {
+      "stage": "proposal",
+      "deal_value": 55000,
+      "priority": "medium",
+      "expected_close_days": 25
+    },
+    "activity": {
+      "last_contact_days_ago": 3,
+      "last_activity_type": "email_reply",
+      "email_open_rate": 0.75,
+      "email_reply_rate": 0.40,
+      "calls_count": 2,
+      "meetings_count": 1
+    },
+    "contact": {
+      "email": null,
+      "phone": "+33-1-5555-0444",
+      "has_email": false,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["industry", "email", "budget"],
+      "profile_completeness_score": 0.62
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 68.0
+    },
+    "history": {
+      "total_interactions": 8,
+      "days_in_pipeline": 22
+    }
+  },
+  {
+    "person": {
+      "id": "USR-444e5f",
+      "name": "Sara Lund",
+      "role": "Investigator",
+      "company": "CPH Police",
+      "industry": "Public Sector"
+    },
+    "deal": {
+      "stage": "closed_lost",
+      "deal_value": 15000,
+      "priority": "low",
+      "expected_close_days": 0
+    },
+    "activity": {
+      "last_contact_days_ago": 200,
+      "last_activity_type": "none",
+      "email_open_rate": 0.0,
+      "email_reply_rate": 0.0,
+      "calls_count": 0,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": "slund@cph.dk",
+      "phone": null,
+      "has_email": true,
+      "has_phone": false,
+      "consent_to_contact": false
+    },
+    "data_quality": {
+      "missing_fields": ["phone", "budget", "timeline"],
+      "profile_completeness_score": 0.40
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": true,
+      "is_decision_maker": false,
+      "engagement_score": 0.0
+    },
+    "history": {
+      "total_interactions": 1,
+      "days_in_pipeline": 210
+    }
+  },
+  {
+    "person": {
+      "id": "USR-555g6h",
+      "name": "Wei Zhang",
+      "role": "CTO",
+      "company": "Beijing AI",
+      "industry": "Tech"
+    },
+    "deal": {
+      "stage": "negotiation",
+      "deal_value": 180000,
+      "priority": "high",
+      "expected_close_days": 5
+    },
+    "activity": {
+      "last_contact_days_ago": 1,
+      "last_activity_type": "meeting",
+      "email_open_rate": 0.95,
+      "email_reply_rate": 0.85,
+      "calls_count": 12,
+      "meetings_count": 5
+    },
+    "contact": {
+      "email": "w.zhang@beijingai.cn",
+      "phone": "+86-10-5555-0789",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": [],
+      "profile_completeness_score": 1.0
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 97.5
+    },
+    "history": {
+      "total_interactions": 45,
+      "days_in_pipeline": 100
+    }
+  },
+  {
+    "person": {
+      "id": "USR-666i7j",
+      "name": "Jane Eyre",
+      "role": "Admin",
+      "company": null,
+      "industry": "Education"
+    },
+    "deal": {
+      "stage": "contacted",
+      "deal_value": 3000,
+      "priority": "low",
+      "expected_close_days": 15
+    },
+    "activity": {
+      "last_contact_days_ago": 12,
+      "last_activity_type": "email_sent",
+      "email_open_rate": 0.35,
+      "email_reply_rate": 0.0,
+      "calls_count": 1,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": "j.eyre@thornfield.org",
+      "phone": null,
+      "has_email": true,
+      "has_phone": false,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["company", "phone", "budget"],
+      "profile_completeness_score": 0.48
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 14.2
+    },
+    "history": {
+      "total_interactions": 2,
+      "days_in_pipeline": 12
+    }
+  },
+  {
+    "person": {
+      "id": "USR-777k8l",
+      "name": "Klaus Schneider",
+      "role": "Operations",
+      "company": "Berlin Fab",
+      "industry": null
+    },
+    "deal": {
+      "stage": "qualified",
+      "deal_value": 72000,
+      "priority": "medium",
+      "expected_close_days": 45
+    },
+    "activity": {
+      "last_contact_days_ago": 6,
+      "last_activity_type": "call",
+      "email_open_rate": 0.50,
+      "email_reply_rate": 0.15,
+      "calls_count": 3,
+      "meetings_count": 1
+    },
+    "contact": {
+      "email": null,
+      "phone": "+49-30-555-0888",
+      "has_email": false,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["industry", "email", "budget"],
+      "profile_completeness_score": 0.58
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 42.0
+    },
+    "history": {
+      "total_interactions": 7,
+      "days_in_pipeline": 20
+    }
+  },
+  {
+    "person": {
+      "id": "USR-888m9n",
+      "name": "Maria Garcia",
+      "role": "CFO",
+      "company": "Madrid Fin",
+      "industry": "Finance"
+    },
+    "deal": {
+      "stage": "closed_won",
+      "deal_value": 245000,
+      "priority": "high",
+      "expected_close_days": 0
+    },
+    "activity": {
+      "last_contact_days_ago": 20,
+      "last_activity_type": "meeting",
+      "email_open_rate": 0.92,
+      "email_reply_rate": 0.75,
+      "calls_count": 9,
+      "meetings_count": 5
+    },
+    "contact": {
+      "email": "m.garcia@madridfin.es",
+      "phone": "+34-91-555-0666",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": [],
+      "profile_completeness_score": 1.0
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 93.8
+    },
+    "history": {
+      "total_interactions": 28,
+      "days_in_pipeline": 80
+    }
+  },
+  {
+    "person": {
+      "id": "USR-999o0p",
+      "name": "Liam Neeson",
+      "role": "Security Lead",
+      "company": null,
+      "industry": "Shipping"
+    },
+    "deal": {
+      "stage": "negotiation",
+      "deal_value": 115000,
+      "priority": "high",
+      "expected_close_days": 10
+    },
+    "activity": {
+      "last_contact_days_ago": 1,
+      "last_activity_type": "call",
+      "email_open_rate": 0.95,
+      "email_reply_rate": 0.80,
+      "calls_count": 14,
+      "meetings_count": 4
+    },
+    "contact": {
+      "email": "l.neeson@gmail.com",
+      "phone": "+1-555-0199",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["company"],
+      "profile_completeness_score": 0.88
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 95.0
+    },
+    "history": {
+      "total_interactions": 35,
+      "days_in_pipeline": 45
+    }
+  },
+  {
+    "person": {
+      "id": "USR-000q1r",
+      "name": "Yousif Al-Jarrah",
+      "role": null,
+      "company": "Amman Systems",
+      "industry": "Tech"
+    },
+    "deal": {
+      "stage": "qualified",
+      "deal_value": 42000,
+      "priority": "medium",
+      "expected_close_days": 35
+    },
+    "activity": {
+      "last_contact_days_ago": 8,
+      "last_activity_type": "email_sent",
+      "email_open_rate": 0.40,
+      "email_reply_rate": 0.10,
+      "calls_count": 2,
+      "meetings_count": 0
+    },
+    "contact": {
+      "email": null,
+      "phone": "+962-6-5555-0777",
+      "has_email": false,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["role", "email", "budget"],
+      "profile_completeness_score": 0.55
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 38.0
+    },
+    "history": {
+      "total_interactions": 6,
+      "days_in_pipeline": 15
+    }
+  },
+  {
+    "person": {
+      "id": "USR-111s2t",
+      "name": "Maria Rossi",
+      "role": "Marketing",
+      "company": "Milan Media",
+      "industry": null
+    },
+    "deal": {
+      "stage": "proposal",
+      "deal_value": 52000,
+      "priority": "medium",
+      "expected_close_days": 20
+    },
+    "activity": {
+      "last_contact_days_ago": 4,
+      "last_activity_type": "email_reply",
+      "email_open_rate": 0.80,
+      "email_reply_rate": 0.45,
+      "calls_count": 3,
+      "meetings_count": 2
+    },
+    "contact": {
+      "email": "m.rossi@milanmedia.it",
+      "phone": null,
+      "has_email": true,
+      "has_phone": false,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["industry", "phone", "budget"],
+      "profile_completeness_score": 0.65
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 70.0
+    },
+    "history": {
+      "total_interactions": 10,
+      "days_in_pipeline": 25
+    }
+  },
+  {
+    "person": {
+      "id": "USR-222u3v",
+      "name": "Ahmed Mansour",
+      "role": "CFO",
+      "company": "Cairo Fin",
+      "industry": "Finance"
+    },
+    "deal": {
+      "stage": "closed_won",
+      "deal_value": 185000,
+      "priority": "high",
+      "expected_close_days": 0
+    },
+    "activity": {
+      "last_contact_days_ago": 15,
+      "last_activity_type": "meeting",
+      "email_open_rate": 0.90,
+      "email_reply_rate": 0.65,
+      "calls_count": 8,
+      "meetings_count": 4
+    },
+    "contact": {
+      "email": "a.mansour@cairofin.eg",
+      "phone": "+20-2-5555-0888",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": [],
+      "profile_completeness_score": 1.0
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 92.5
+    },
+    "history": {
+      "total_interactions": 25,
+      "days_in_pipeline": 50
+    }
+  },
+  {
+    "person": {
+      "id": "USR-333w4x",
+      "name": "Simon Baker",
+      "role": "COO",
+      "company": "Cape Log",
+      "industry": "Shipping"
+    },
+    "deal": {
+      "stage": "qualified",
+      "deal_value": 52000,
+      "priority": "medium",
+      "expected_close_days": 40
+    },
+    "activity": {
+      "last_contact_days_ago": 6,
+      "last_activity_type": "call",
+      "email_open_rate": 0.55,
+      "email_reply_rate": 0.20,
+      "calls_count": 3,
+      "meetings_count": 1
+    },
+    "contact": {
+      "email": "s.baker@capelog.za",
+      "phone": null,
+      "has_email": true,
+      "has_phone": false,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["phone", "budget"],
+      "profile_completeness_score": 0.78
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": false,
+      "is_decision_maker": true,
+      "engagement_score": 46.5
+    },
+    "history": {
+      "total_interactions": 8,
+      "days_in_pipeline": 20
+    }
+  },
+  {
+    "person": {
+      "id": "USR-444y5z",
+      "name": "Elena Popescu",
+      "role": "Ops Manager",
+      "company": null,
+      "industry": "Shipping"
+    },
+    "deal": {
+      "stage": "proposal",
+      "deal_value": 52000,
+      "priority": "medium",
+      "expected_close_days": 20
+    },
+    "activity": {
+      "last_contact_days_ago": 3,
+      "last_activity_type": "email_reply",
+      "email_open_rate": 0.80,
+      "email_reply_rate": 0.40,
+      "calls_count": 4,
+      "meetings_count": 2
+    },
+    "contact": {
+      "email": "e.popescu@gmail.com",
+      "phone": "+40-21-555-0101",
+      "has_email": true,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["company"],
+      "profile_completeness_score": 0.88
+    },
+    "signals": {
+      "is_high_intent": true,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 75.0
+    },
+    "history": {
+      "total_interactions": 12,
+      "days_in_pipeline": 25
+    }
+  },
+  {
+    "person": {
+      "id": "USR-555a6b",
+      "name": "Alex Smith",
+      "role": null,
+      "company": "Midwest Auto",
+      "industry": "Automotive"
+    },
+    "deal": {
+      "stage": "qualified",
+      "deal_value": 45000,
+      "priority": "medium",
+      "expected_close_days": 30
+    },
+    "activity": {
+      "last_contact_days_ago": 4,
+      "last_activity_type": "call",
+      "email_open_rate": 0.65,
+      "email_reply_rate": 0.25,
+      "calls_count": 3,
+      "meetings_count": 1
+    },
+    "contact": {
+      "email": null,
+      "phone": "+1-555-0222",
+      "has_email": false,
+      "has_phone": true,
+      "consent_to_contact": true
+    },
+    "data_quality": {
+      "missing_fields": ["role", "email", "budget"],
+      "profile_completeness_score": 0.55
+    },
+    "signals": {
+      "is_high_intent": false,
+      "is_unresponsive": false,
+      "is_decision_maker": false,
+      "engagement_score": 52.0
+    },
+    "history": {
+      "total_interactions": 7,
+      "days_in_pipeline": 15
+    }
+  }
+]

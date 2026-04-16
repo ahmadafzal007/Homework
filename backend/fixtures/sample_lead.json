@@ -1,0 +1,44 @@
+{
+  "person": {
+    "id": "USR-101a2b",
+    "name": "Sarah Jenkins",
+    "role": "CTO",
+    "company": "Nexus Solutions",
+    "industry": "Software"
+  },
+  "deal": {
+    "stage": "negotiation",
+    "deal_value": 45000,
+    "priority": "high",
+    "expected_close_days": 14
+  },
+  "activity": {
+    "last_contact_days_ago": 2,
+    "last_activity_type": "meeting",
+    "email_open_rate": 0.85,
+    "email_reply_rate": 0.4,
+    "calls_count": 5,
+    "meetings_count": 3
+  },
+  "contact": {
+    "email": "sjenkins@nexussolutions.com",
+    "phone": "+1-555-0102",
+    "has_email": true,
+    "has_phone": true,
+    "consent_to_contact": true
+  },
+  "data_quality": {
+    "missing_fields": [],
+    "profile_completeness_score": 1.0
+  },
+  "signals": {
+    "is_high_intent": true,
+    "is_unresponsive": false,
+    "is_decision_maker": true,
+    "engagement_score": 92.5
+  },
+  "history": {
+    "total_interactions": 12,
+    "days_in_pipeline": 45
+  }
+}
