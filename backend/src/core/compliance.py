@@ -49,7 +49,6 @@ def check_compliance(record: CRMRecord) -> Tuple[List[ActionType], str]:
             ActionType.CREATE_CALL_TASK,
             ActionType.SCHEDULE_MEETING,
             ActionType.ESCALATE_TO_AE,
-            ActionType.SEND_PROPOSAL,
         ]:
             if action not in blocked:
                 blocked.append(action)
