@@ -155,7 +155,7 @@ def test_recommend_agentic_endpoint_contract_alignment_with_stub(client, monkeyp
 		uncertainty_note="Stubbed response for API contract validation.",
 	)
 
-	monkeypatch.setattr(routes_module, "run_nba_pipeline", lambda _record: stub_response)
+	monkeypatch.setattr(routes_module, "run_nba_pipeline", lambda _record: (stub_response, False))
 
 	response = client.post("/api/v1/recommend", json=record.model_dump())
 	assert response.status_code == 200
@@ -187,8 +187,9 @@ def test_agentic_pipeline_fallback_backfills_to_top_three(monkeypatch):
 
 	monkeypatch.setattr(workflow_module, "nba_graph", _StubGraph())
 
-	result = run_nba_pipeline(record)
+	result, used_heuristic_fallback = run_nba_pipeline(record)
 
+	assert used_heuristic_fallback is False
 	assert len(result.recommendations) == 3
 	assert all(rec.action_type.value != blocked_action for rec in result.recommendations)
 	assert result.uncertainty_note is not None

@@ -43,7 +43,7 @@ nba_graph = _build_graph()
 
 
 # ── Public entry point ───────────────────────────────────────────────────────
-def run_nba_pipeline(record: CRMRecord) -> NBARResponse:
+def run_nba_pipeline(record: CRMRecord) -> tuple[NBARResponse, bool]:
     """
     Run the full multi-agent NBA pipeline for a given CRM record.
 
@@ -51,7 +51,12 @@ def run_nba_pipeline(record: CRMRecord) -> NBARResponse:
         record: A validated CRMRecord Pydantic object.
 
     Returns:
-        NBARResponse with top-3 recommendations and an optional uncertainty note.
+        A tuple ``(response, used_heuristic_fallback)`` where ``used_heuristic_fallback``
+        is True whenever the agentic LLM path failed/timed out and the response was
+        produced by the deterministic heuristic engine instead. Callers should use
+        this flag to avoid caching a heuristic response under the agentic cache key
+        (which would otherwise make the AI and heuristic engines return identical
+        results on every subsequent request).
     """
     initial_state: AgentState = {
         "crm_record": record,
@@ -80,10 +85,13 @@ def run_nba_pipeline(record: CRMRecord) -> NBARResponse:
             if fallback.uncertainty_note
             else timeout_note
         )
-        return NBARResponse(
-            record_id=fallback.record_id,
-            recommendations=fallback.recommendations,
-            uncertainty_note=combined_note,
+        return (
+            NBARResponse(
+                record_id=fallback.record_id,
+                recommendations=fallback.recommendations,
+                uncertainty_note=combined_note,
+            ),
+            True,
         )
     except Exception as exc:  # noqa: BLE001
         future.cancel()
@@ -97,10 +105,13 @@ def run_nba_pipeline(record: CRMRecord) -> NBARResponse:
             if fallback.uncertainty_note
             else error_note
         )
-        return NBARResponse(
-            record_id=fallback.record_id,
-            recommendations=fallback.recommendations,
-            uncertainty_note=combined_note,
+        return (
+            NBARResponse(
+                record_id=fallback.record_id,
+                recommendations=fallback.recommendations,
+                uncertainty_note=combined_note,
+            ),
+            True,
         )
     finally:
         executor.shutdown(wait=False, cancel_futures=True)
@@ -123,8 +134,11 @@ def run_nba_pipeline(record: CRMRecord) -> NBARResponse:
         )
         uncertainty_note = f"{uncertainty_note} | {fallback_note}" if uncertainty_note else fallback_note
 
-    return NBARResponse(
-        record_id=record.person.id,
-        recommendations=normalized_recommendations,
-        uncertainty_note=uncertainty_note,
+    return (
+        NBARResponse(
+            record_id=record.person.id,
+            recommendations=normalized_recommendations,
+            uncertainty_note=uncertainty_note,
+        ),
+        False,
     )

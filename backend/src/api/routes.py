@@ -161,11 +161,12 @@ def recommend(
         if cached:
             return cached
 
+    used_heuristic_fallback = False
     if engine == "heuristic":
         result = get_heuristic_recommendations(record)
     else:
         try:
-            result = run_nba_pipeline(record)
+            result, used_heuristic_fallback = run_nba_pipeline(record)
         except Exception as exc:  # noqa: BLE001
             raise HTTPException(
                 status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
@@ -181,7 +182,11 @@ def recommend(
             ),
         )
 
-    save_cached_recommendation(result, engine)
+    # Never cache an agentic response that was actually produced by the heuristic
+    # fallback path — otherwise the AI and heuristic engines would return the
+    # exact same cached payload on every subsequent request.
+    if not used_heuristic_fallback:
+        save_cached_recommendation(result, engine)
     return result
 
 
