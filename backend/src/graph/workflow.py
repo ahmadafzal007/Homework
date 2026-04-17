@@ -9,9 +9,12 @@ The graph is compiled once at import time and reused across requests.
 """
 from __future__ import annotations
 
+import logging
 from concurrent.futures import ThreadPoolExecutor, TimeoutError as FuturesTimeoutError
 
 from langgraph.graph import StateGraph, START, END
+
+logger = logging.getLogger(__name__)
 
 from src.core.config import settings
 from src.core.heuristics import get_heuristic_recommendations
@@ -75,6 +78,11 @@ def run_nba_pipeline(record: CRMRecord) -> tuple[NBARResponse, bool]:
         final_state = future.result(timeout=settings.AGENTIC_MAX_RUNTIME_SECONDS)
     except FuturesTimeoutError:
         future.cancel()
+        logger.warning(
+            "Agentic pipeline timed out after %ss for record_id=%s; returning heuristic fallback.",
+            settings.AGENTIC_MAX_RUNTIME_SECONDS,
+            record.person.id,
+        )
         fallback = get_heuristic_recommendations(record)
         timeout_note = (
             f"Agentic pipeline exceeded {settings.AGENTIC_MAX_RUNTIME_SECONDS}s runtime guardrail; "
@@ -95,10 +103,14 @@ def run_nba_pipeline(record: CRMRecord) -> tuple[NBARResponse, bool]:
         )
     except Exception as exc:  # noqa: BLE001
         future.cancel()
+        logger.exception(
+            "Agentic pipeline failed for record_id=%s; returning heuristic fallback.",
+            record.person.id,
+        )
         fallback = get_heuristic_recommendations(record)
         error_note = (
             "Agentic pipeline failed and automatically switched to fast heuristic fallback "
-            f"({exc.__class__.__name__})."
+            f"({exc.__class__.__name__}: {str(exc)[:200]})."
         )
         combined_note = (
             f"{fallback.uncertainty_note} | {error_note}"

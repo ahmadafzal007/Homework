@@ -18,13 +18,20 @@ class Settings(BaseSettings):
     JWT_EXPIRE_DAYS: int = 15
 
     # LLM config
+    # NOTE on timeouts: Gemini Flash structured_output responses for the
+    # recommender schema can take 10-30s, especially on cold/first calls.
+    # Keeping LLM_TIMEOUT_SECONDS too low causes 504 DEADLINE_EXCEEDED and
+    # forces the agentic pipeline into its heuristic-fallback path, making
+    # the AI engine indistinguishable from the Rank engine in the UI.
     LLM_MODEL: str = "gemini-flash-latest"
     LLM_TEMPERATURE: float = 0.2
-    LLM_TIMEOUT_SECONDS: int = 12
-    LLM_MAX_RETRIES: int = 1
+    LLM_TIMEOUT_SECONDS: int = 45
+    LLM_MAX_RETRIES: int = 2
 
-    # Agentic pipeline runtime guardrails
-    AGENTIC_MAX_RUNTIME_SECONDS: int = 30
+    # Agentic pipeline runtime guardrails — must stay larger than the worst
+    # case (LLM_TIMEOUT_SECONDS * (LLM_MAX_RETRIES + 1)) so the graph wrapper
+    # does not trip before the LLM retry budget is exhausted.
+    AGENTIC_MAX_RUNTIME_SECONDS: int = 150
 
     # MongoDB config
     MONGODB_DB_NAME: str = "nba_engine"
